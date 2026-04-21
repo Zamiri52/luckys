@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lukysmile LLC - Bulk Order &amp; Shipping</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-error-container": "#93000a",
+                    "on-background": "#1b1c1c",
+                    "on-tertiary-fixed-variant": "#802900",
+                    "primary-container": "#0047ab",
+                    "secondary": "#4e5e85",
+                    "surface-bright": "#fbf9f8",
+                    "surface-dim": "#dcd9d9",
+                    "on-tertiary-fixed": "#380d00",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-fixed-dim": "#b1c5ff",
+                    "surface-variant": "#e4e2e1",
+                    "on-surface-variant": "#434653",
+                    "outline-variant": "#c3c6d5",
+                    "tertiary-fixed": "#ffdbcf",
+                    "on-tertiary-container": "#ffaa8a",
+                    "surface-tint": "#2559bd",
+                    "on-primary": "#ffffff",
+                    "surface-container-high": "#eae8e7",
+                    "on-secondary-fixed-variant": "#37466c",
+                    "tertiary-fixed-dim": "#ffb59a",
+                    "surface": "#fbf9f8",
+                    "inverse-primary": "#b1c5ff",
+                    "primary-fixed": "#dae2ff",
+                    "error": "#ba1a1a",
+                    "inverse-on-surface": "#f3f0f0",
+                    "on-secondary": "#ffffff",
+                    "outline": "#737784",
+                    "inverse-surface": "#303030",
+                    "surface-container-low": "#f6f3f2",
+                    "tertiary-container": "#8b2e01",
+                    "background": "#fbf9f8",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-container": "#a5bdff",
+                    "secondary-fixed-dim": "#b6c6f3",
+                    "error-container": "#ffdad6",
+                    "secondary-container": "#c1d1ff",
+                    "primary": "#00327d",
+                    "on-primary-fixed": "#001946",
+                    "surface-container-highest": "#e4e2e1",
+                    "on-primary-fixed-variant": "#00419e",
+                    "on-secondary-container": "#4a5980",
+                    "tertiary": "#651f00",
+                    "on-error": "#ffffff",
+                    "secondary-fixed": "#dae2ff",
+                    "on-secondary-fixed": "#081a3e",
+                    "surface-container": "#f0eded",
+                    "on-surface": "#1b1c1c"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {},
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-sm dark:shadow-none bg-slate-50 dark:bg-slate-800">
+<div class="flex justify-between items-center px-8 h-20 max-w-[1920px] mx-auto">
+<!-- Brand Logo -->
+<a class="text-2xl font-black tracking-tighter text-blue-900 dark:text-white" href="#">Lukysmile LLC</a>
+<!-- Navigation Links -->
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-white transition-colors hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300 px-3 py-2 rounded scale-95 active:opacity-80 transition-transform font-['Inter'] font-medium tracking-tight text-sm" href="../index.html">Home</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-white transition-colors hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300 px-3 py-2 rounded scale-95 active:opacity-80 transition-transform font-['Inter'] font-medium tracking-tight text-sm" href="../electronics_wholesale_lukysmile_llc/code.html">Shop</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-white transition-colors hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300 px-3 py-2 rounded scale-95 active:opacity-80 transition-transform font-['Inter'] font-medium tracking-tight text-sm" href="../about_us_lukysmile_llc/code.html">About</a>
+<a class="text-blue-900 dark:text-blue-400 border-b-2 border-blue-900 dark:border-blue-400 pb-1 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300 px-3 py-2 scale-95 active:opacity-80 transition-transform font-['Inter'] font-medium tracking-tight text-sm" href="#">Bulk Orders</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-white transition-colors hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300 px-3 py-2 rounded scale-95 active:opacity-80 transition-transform font-['Inter'] font-medium tracking-tight text-sm" href="../wholesale_registration_lukysmile_llc/code.html">Register</a>
+</div>
+<!-- Trailing Actions -->
+<div class="flex items-center gap-4 text-blue-900 dark:text-blue-400">
+<button class="hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300 p-2 rounded scale-95 active:opacity-80 transition-transform">
+<span class="material-symbols-outlined">person</span>
+</button>
+<button class="hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300 p-2 rounded scale-95 active:opacity-80 transition-transform relative">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">shopping_cart</span>
+<span class="absolute top-1 right-1 bg-tertiary text-on-tertiary text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">3</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-28 pb-20 px-4 md:px-8 max-w-7xl mx-auto w-full flex flex-col lg:flex-row gap-8">
+<!-- Left Column: Bulk Order Table -->
+<section class="lg:w-2/3 flex flex-col gap-6">
+<div class="flex flex-col gap-2">
+<h1 class="text-display-lg font-headline font-bold text-primary tracking-tight">Bulk Order Workspace</h1>
+<p class="text-body-md text-on-surface-variant max-w-2xl">Review your current bulk selections, adjust quantities, and confirm SKU details before proceeding to the shipping estimator.</p>
+</div>
+<!-- Table Container -->
+<div class="bg-surface-container-low rounded-lg p-1">
+<!-- Header Row -->
+<div class="grid grid-cols-12 gap-4 px-6 py-4 text-label-sm font-label font-semibold text-on-surface-variant uppercase tracking-wider">
+<div class="col-span-5">Product Details</div>
+<div class="col-span-2 text-right">Unit Price</div>
+<div class="col-span-3 text-center">Quantity</div>
+<div class="col-span-2 text-right">Total</div>
+</div>
+<!-- Row 1 -->
+<div class="group grid grid-cols-12 gap-4 px-6 py-4 items-center bg-surface hover:bg-primary-fixed/10 transition-colors duration-200">
+<div class="col-span-5 flex items-center gap-4">
+<div class="w-16 h-16 rounded-md bg-surface-variant flex-shrink-0 overflow-hidden">
+<img alt="Premium wireless headphones" class="w-full h-full object-cover" data-alt="close up of premium black wireless headphones on a clean white background with soft studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiJolNICOGgNXKbRG2ffymXNjib1YGiiuXbt9avJpV5QrlX_pToj8cHiF7tkgewXL9x5vGRTlxQL9sJYTvwPcVnSNHWImilL8uTVqBcgHDW1vggKQ1tWLoiLdYab3JbNKZfXBlW-K667BQPyo39V2rgWWomH1uxUIIbo4-kuk5laMogf7M56xi0bmxvFJpvzpHqkXJjfze28fTvDeut8wHmVYmsdeU1SPhWVHvoRvT3apzFIY2QDa3gmD72Abr-7uEzJI73tbxOezY"/>
+</div>
+<div class="flex flex-col">
+<span class="text-title-md font-headline font-semibold text-on-surface">Pro Audio Headset Series 7</span>
+<span class="text-label-sm font-label text-on-surface-variant">SKU: AU-HS7-BLK</span>
+</div>
+</div>
+<div class="col-span-2 text-right text-body-md font-body text-on-surface">$145.00</div>
+<div class="col-span-3 flex justify-center">
+<div class="flex items-center bg-surface-container-lowest rounded border border-outline-variant/30">
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">remove</span></button>
+<input class="w-12 text-center text-body-md font-body bg-transparent border-none focus:ring-0 p-1 appearance-none" type="number" value="50"/>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">add</span></button>
+</div>
+</div>
+<div class="col-span-2 text-right text-title-md font-headline font-bold text-primary">$7,250.00</div>
+</div>
+<!-- Row 2 -->
+<div class="group grid grid-cols-12 gap-4 px-6 py-4 items-center bg-surface-container-lowest hover:bg-primary-fixed/10 transition-colors duration-200">
+<div class="col-span-5 flex items-center gap-4">
+<div class="w-16 h-16 rounded-md bg-surface-variant flex-shrink-0 overflow-hidden">
+<img alt="Red running shoes" class="w-full h-full object-cover" data-alt="vibrant red running shoe shown in profile on a minimal grey surface with bright even lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPO-CqZTPZH_uATzsDoEAtm2N_7vp7NMIFCFHpsUXx90V6Aw9d2HaurP1JImxnsMVagq7n93vTPRWoC9Uh5GLLN7GtqKI1qNPMgqvNdF5yiCR1XbS7Yg-ktp4Zp5gKULtRbm2biAVD1tmBrMb7R4CaVZtFq_5lS0xW_bO1_TY5xRvbuSyI-ENf9ukPQJtkbDqQ507VPZrWDM9aQ6Cwc_UI8_d_vzVOtTz2kFi94g09YmWyjIA1R6QVLGJoqeHGsXszebQ-iC5bmb9y"/>
+</div>
+<div class="flex flex-col">
+<span class="text-title-md font-headline font-semibold text-on-surface">Velocity Runner Pro</span>
+<span class="text-label-sm font-label text-on-surface-variant">SKU: FTW-VR-RED</span>
+</div>
+</div>
+<div class="col-span-2 text-right text-body-md font-body text-on-surface">$85.50</div>
+<div class="col-span-3 flex justify-center">
+<div class="flex items-center bg-surface-container-lowest rounded border border-outline-variant/30">
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">remove</span></button>
+<input class="w-12 text-center text-body-md font-body bg-transparent border-none focus:ring-0 p-1 appearance-none" type="number" value="100"/>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">add</span></button>
+</div>
+</div>
+<div class="col-span-2 text-right text-title-md font-headline font-bold text-primary">$8,550.00</div>
+</div>
+<!-- Row 3 -->
+<div class="group grid grid-cols-12 gap-4 px-6 py-4 items-center bg-surface hover:bg-primary-fixed/10 transition-colors duration-200">
+<div class="col-span-5 flex items-center gap-4">
+<div class="w-16 h-16 rounded-md bg-surface-variant flex-shrink-0 overflow-hidden">
+<img alt="Smart watch" class="w-full h-full object-cover" data-alt="sleek modern smartwatch with a white band resting on a subtle textured grey background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhF83t8QbOA2oOHV0cuZYSXtIGlwSUhv9AVqpD1vgxyVSbpU31kxSZR93svkZ-qvWsRsYRoMe0wPad6Cy91Hy8NTkWsYb-PcXGm0fQAWSsI1VTBXJLB8fAv3yL2iOgSvh66PIQygBG-pSDjMsa4HWDoaooGN1hva36SMEsoqeEoT6Fdon6BjwkiBVzb4dgfWGf7KDIseS0LT2ozgtfTfdrBNm084IhLdgZ-3XFPhgjMpBwAkowpHp5etKfe9mYefB1-7aVGwbRKaNG"/>
+</div>
+<div class="flex flex-col">
+<span class="text-title-md font-headline font-semibold text-on-surface">Connect Smartwatch V2</span>
+<span class="text-label-sm font-label text-on-surface-variant">SKU: TEC-SW2-WHT</span>
+</div>
+</div>
+<div class="col-span-2 text-right text-body-md font-body text-on-surface">$110.00</div>
+<div class="col-span-3 flex justify-center">
+<div class="flex items-center bg-surface-container-lowest rounded border border-outline-variant/30">
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">remove</span></button>
+<input class="w-12 text-center text-body-md font-body bg-transparent border-none focus:ring-0 p-1 appearance-none" type="number" value="25"/>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-sm">add</span></button>
+</div>
+</div>
+<div class="col-span-2 text-right text-title-md font-headline font-bold text-primary">$2,750.00</div>
+</div>
+<!-- Table Footer Actions -->
+<div class="flex justify-between items-center px-6 py-6 border-t-0 bg-surface-container-low mt-2 rounded-b-lg">
+<button class="text-primary font-label font-semibold text-label-md flex items-center gap-2 hover:text-primary-container transition-colors">
+<span class="material-symbols-outlined text-sm">update</span>
+                        Update Cart
+                    </button>
+<div class="flex items-center gap-6">
+<div class="flex flex-col text-right">
+<span class="text-label-sm font-label text-on-surface-variant uppercase tracking-wider">Subtotal (175 items)</span>
+<span class="text-headline-sm font-headline font-bold text-on-surface">$18,550.00</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Right Column: Shipping Calculator & Checkout -->
+<aside class="lg:w-1/3 flex flex-col gap-6">
+<!-- Logistics Card -->
+<div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6 relative overflow-hidden">
+<!-- Subtle Gradient Overlay -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-container/5 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none"></div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">local_shipping</span>
+<h2 class="text-title-lg font-headline font-bold text-primary">Logistics Estimator</h2>
+</div>
+<p class="text-body-sm text-on-surface-variant leading-relaxed">Calculate exact freight or parcel costs based on total shipment weight and destination.</p>
+<form class="flex flex-col gap-5">
+<div class="flex flex-col gap-2">
+<label class="text-label-sm font-label text-on-surface-variant font-medium" for="country">Destination Country</label>
+<select class="bg-surface-container-lowest w-full rounded-md border-outline-variant/30 text-body-md text-on-surface py-3 px-4 focus:ring-0 focus:border-transparent focus:bg-surface-container-high focus:border-b-2 focus:border-b-primary transition-all appearance-none" id="country">
+<option>United States</option>
+<option>Canada</option>
+<option>Mexico</option>
+<option>United Kingdom</option>
+</select>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-2">
+<label class="text-label-sm font-label text-on-surface-variant font-medium" for="zip">Postal / Zip Code</label>
+<input class="bg-surface-container-lowest w-full rounded-md border-outline-variant/30 text-body-md text-on-surface py-3 px-4 focus:ring-0 focus:border-transparent focus:bg-surface-container-high focus:border-b-2 focus:border-b-primary transition-all" id="zip" placeholder="e.g. 90210" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-label-sm font-label text-on-surface-variant font-medium" for="weight">Total Est. Weight</label>
+<div class="relative">
+<input class="bg-surface-container-lowest w-full rounded-md border-outline-variant/30 text-body-md text-on-surface py-3 px-4 focus:ring-0 focus:border-transparent focus:bg-surface-container-high focus:border-b-2 focus:border-b-primary transition-all pr-12" id="weight" type="text" value="425"/>
+<span class="absolute right-4 top-1/2 -translate-y-1/2 text-label-sm text-on-surface-variant">lbs</span>
+</div>
+</div>
+</div>
+<button class="mt-2 bg-surface text-primary border border-primary/20 font-label font-semibold text-label-md py-3 px-4 rounded-lg hover:bg-primary-fixed/20 transition-colors flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-sm">calculate</span>
+                        Calculate Freight
+                    </button>
+</form>
+<!-- Results Area (Conceptual State) -->
+<div class="mt-4 p-4 bg-surface-container-lowest rounded-lg border border-outline-variant/20 flex flex-col gap-3">
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<span class="text-label-md font-label font-semibold text-on-surface">Standard LTL Freight</span>
+<span class="text-body-sm text-on-surface-variant">Est. Delivery: 5-7 Business Days</span>
+</div>
+<span class="text-title-md font-headline font-bold text-primary">$345.00</span>
+</div>
+</div>
+</div>
+<!-- Total Summary & Action -->
+<div class="bg-surface-container-lowest shadow-[0_8px_30px_rgb(27,28,28,0.04)] rounded-xl p-8 flex flex-col gap-6">
+<h3 class="text-title-md font-headline font-bold text-on-surface border-b border-surface-variant pb-4">Order Summary</h3>
+<div class="flex flex-col gap-3 text-body-md text-on-surface-variant">
+<div class="flex justify-between">
+<span>Cart Subtotal</span>
+<span class="font-medium text-on-surface">$18,550.00</span>
+</div>
+<div class="flex justify-between">
+<span>Estimated Freight</span>
+<span class="font-medium text-on-surface">$345.00</span>
+</div>
+<div class="flex justify-between text-tertiary">
+<span>Bulk Discount (Tier 2)</span>
+<span class="font-medium">-$927.50</span>
+</div>
+</div>
+<div class="flex justify-between items-end border-t border-surface-variant pt-4">
+<span class="text-label-md font-label font-bold text-on-surface uppercase tracking-wider">Total Est. Cost</span>
+<span class="text-headline-md font-headline font-black text-primary">$17,967.50</span>
+</div>
+<button class="w-full bg-primary text-on-primary font-label font-bold text-title-sm py-4 rounded-lg hover:bg-primary-container transition-colors mt-4 flex justify-center items-center gap-2 shadow-[0_4px_14px_rgb(0,50,125,0.2)]">
+                    Proceed to Checkout
+                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</aside>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-8 bg-slate-50 dark:bg-slate-950 font-['Inter'] text-sm leading-relaxed border-t-0 tonal-shift-bg flat no-shadows">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div class="flex flex-col gap-4">
+<span class="text-xl font-bold text-blue-900 dark:text-white">Lukysmile LLC</span>
+<p class="text-slate-500 dark:text-slate-400">© 2024 Lukysmile LLC. All rights reserved.</p>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 underline-offset-4 hover:underline transition-all duration-200" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 underline-offset-4 hover:underline transition-all duration-200" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 underline-offset-4 hover:underline transition-all duration-200" href="#">Shipping Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 underline-offset-4 hover:underline transition-all duration-200" href="#">Bulk Inquiries</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 underline-offset-4 hover:underline transition-all duration-200" href="mailto:shar.mangal188@gmail.com">shar.mangal188@gmail.com</a>
+</div>
+</div>
+</footer>
+</body></html>
